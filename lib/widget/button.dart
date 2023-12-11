@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
- 
+
+ /*our Buttonss class is a StatelessWidget in Flutter that represents a reusable button widget. */
 class Buttonss extends StatelessWidget {
   final String buttonName;
   final VoidCallback onbuttonPressed;
@@ -16,3 +17,5 @@ class Buttonss extends StatelessWidget {
     );
   }
 }
+
+/*This widget provides a convenient way to create reusable buttons with customizable text and behavior. */

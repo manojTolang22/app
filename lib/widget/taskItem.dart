@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 
+/*our TaskItem widget is a Flutter widget that represents an item in a task list. */
 class TaskItem extends StatelessWidget {
   final bool value;
   final String title;
@@ -71,3 +72,8 @@ class TaskItem extends StatelessWidget {
     );
   }
 }
+
+
+/*This TaskItem widget creates a visually appealing and functional representation of a task item in a task list,
+ complete with checkbox, title, and slideable actions for editing and deleting.
+ */
